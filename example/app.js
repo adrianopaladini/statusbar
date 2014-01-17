@@ -77,13 +77,13 @@ btn1.addEventListener('click', function(){
     /*
     You can use with arguments:
     
-    statusbar.hide({animationStyle: statusbar.ANIMATION_FADE });
+    statusbar.hide({animationStyle: statusbar.FADE });
     
     
     animationStyle can be:  
-    ANIMATION_NONE
-    ANIMATION_SLIDE (Default)
-    ANIMATION_FADE
+    NONE
+    SLIDE (Default)
+    FADE
 
     
     */
@@ -95,37 +95,37 @@ btn2.addEventListener('click', function(){
     /*
     You can use with arguments:
     
-    statusbar.show({animationStyle: statusbar.ANIMATION_FADE });
+    statusbar.show({animationStyle: statusbar.FADE });
     
     
     animationStyle can be:  
-    ANIMATION_NONE
-    ANIMATION_SLIDE (Default)
-    ANIMATION_FADE
+    NONE
+    SLIDE (Default)
+    FADE
     
     */
 });
 
 btn3.addEventListener('click', function(){
-    statusbar.style = statusbar.COLOR_BLACK;
+    statusbar.style = statusbar.BLACK;
     
     /*
 
      Style can be:
-     COLOR_BLACK
-     COLOR_WHITE
+     BLACK
+     WHITE
      
     */
 });
 
 btn4.addEventListener('click', function(){
-    statusbar.style = statusbar.COLOR_WHITE;
+    statusbar.style = statusbar.WHITE;
     
     /*
 
      Style can be:
-     COLOR_BLACK
-     COLOR_WHITE
+     BLACK
+     WHITE
      
     */
 });

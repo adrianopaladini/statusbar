@@ -41,14 +41,14 @@ statusbar.hide();
 or
 
 ```javascript
-statusbar.hide({animationStyle:statusbar.ANIMATION_FADE});
+statusbar.hide({animationStyle: statusbar.FADE});
 ```
 
 | input (constant) | Description | 
 | ----- | ----------- |
-| ANIMATION_NONE | No animation | 
-| ANIMATION_FADE | Fading out | 
-| ANIMATION_SLIDE (Default) | The statusbar will slide to top | 
+| NONE | No animation | 
+| FADE | Fading out | 
+| SLIDE (Default) | The statusbar will slide to top | 
 
 
 
@@ -63,27 +63,27 @@ statusbar.show();
 or
 
 ```javascript
-statusbar.show({animationStyle:statusbar.ANIMATION_FADE});
+statusbar.show({animationStyle: statusbar.FADE});
 ```
 
 | input (constant) | Description | 
 | ----- | ----------- |
-| ANIMATION_NONE | No animation | 
-| ANIMATION_FADE | Fading in | 
-| ANIMATION_SLIDE (Default)| The statusbar will slide from top | 
+| NONE | No animation | 
+| FADE | Fading in | 
+| SLIDE (Default)| The statusbar will slide from top | 
 
 ### style
 
 Set the color of status bar.
 
 ```javascript
-statusbar.style = statusbar.COLOR_WHITE;
+statusbar.style = statusbar.WHITE;
 ```
 
 | input (constant) | Description | 
 | ----- | ----------- |
-| COLOR_BLACK | The statusbar icons and text wil be black | 
-| COLOR_WHITE | The statusbar icons and text wil be white | 
+| BLACK | The statusbar icons and text will be black | 
+| WHITE | The statusbar icons and text will be white | 
 
 
 
