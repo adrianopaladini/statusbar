@@ -5,6 +5,12 @@
 Appcelerator deprecate functions 'hideStatusBar', 'showStatusBar' and 'setStatusBarStyle' on runtime.
 This module gives you back the control over these functions on iOS 7.
 
+
+### Get the module
+
+**You can download the version already compiled through https://marketplace.appcelerator.com/apps/7533**
+
+
 ## Accessing the statusbar Module
 
 To access this module from JavaScript, you would do the following:
