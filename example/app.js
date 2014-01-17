@@ -6,14 +6,6 @@ var win = Ti.UI.createWindow({
 });
 win.open();
 
-
-mv = Ti.UI.createView({
-   backgroundColor:'red',
-   height:2,
-   top:1 
-});
-win.add(mv);
-
 // create a button to hide statusbar
 var btn1 = Ti.UI.createButton({
     title:'Hide statusbar',
