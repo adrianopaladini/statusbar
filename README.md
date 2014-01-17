@@ -9,7 +9,9 @@ This module gives you back the control over these functions on iOS 7.
 
 To access this module from JavaScript, you would do the following:
 
-	var statusbar = require("com.widbook.statusbar");
+```javascript
+var statusbar = require("com.widbook.statusbar");
+```
 
 The statusbar variable is a reference to the Module object.	
 
@@ -33,35 +35,58 @@ The statusbar variable is a reference to the Module object.
 
 Hide the status bar.
 
-This function accept parameters:
-	animated: True or False
-    animationStyle:  0, 1 or 2
+```javascript
+statusbar.hide();
+```
+or
 
-    0 = NONE
-    1 = FADE
-    2 = SLIDE
+```javascript
+statusbar.hide({animationStyle:statusbar.ANIMATION_FADE});
+```
+
+| input (constant) | Description | 
+| ----- | ----------- |
+| ANIMATION_NONE | No animation | 
+| ANIMATION_FADE | Fading out | 
+| ANIMATION_SLIDE (Default) | The statusbar will slide to top | 
+
+
 
 
 ### show
 
 Show the status bar.
 
-This function accept parameters:
-	animated: True or False
-    animationStyle: 0, 1 or 2
+```javascript
+statusbar.show();
+```
+or
 
-    0 = NONE
-    1 = FADE
-    2 = SLIDE
+```javascript
+statusbar.show({animationStyle:statusbar.ANIMATION_FADE});
+```
 
+| input (constant) | Description | 
+| ----- | ----------- |
+| ANIMATION_NONE | No animation | 
+| ANIMATION_FADE | Fading in | 
+| ANIMATION_SLIDE (Default)| The statusbar will slide from top | 
 
 ### style
 
 Set the color of status bar.
-Style can be: 0 or 1
 
-    0 = BLACK
-    1 = WHITE
+```javascript
+statusbar.style = statusbar.COLOR_WHITE;
+```
+
+| input (constant) | Description | 
+| ----- | ----------- |
+| COLOR_BLACK | The statusbar icons and text wil be black | 
+| COLOR_WHITE | The statusbar icons and text wil be white | 
+
+
+
 
 ## Author
 

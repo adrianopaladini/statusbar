@@ -46,6 +46,25 @@ var btn4 = Ti.UI.createButton({
 });
 win.add(btn4);
 
+
+
+
+// IMPORTANT: do not forget to include this code in tiaap.xml:
+//
+//
+//  <ios>
+//      <plist>
+//          <dict>
+//              <key>UIViewControllerBasedStatusBarAppearance</key>
+//              <false/>
+//          </dict>
+//      </plist>
+//  </ios>
+//
+//
+
+
+
 // Create module object
 var statusbar = require('com.widbook.statusbar');
 
@@ -58,17 +77,14 @@ btn1.addEventListener('click', function(){
     /*
     You can use with arguments:
     
-    args = {
-        animated:true,
-        animationStyle:2
-    };
-    statusbar.hide(args);
+    statusbar.hide({animationStyle: statusbar.ANIMATION_FADE });
     
     
     animationStyle can be:  
-    0 = NONE,
-    1 = FADE,
-    2 = SLIDE
+    ANIMATION_NONE
+    ANIMATION_SLIDE (Default)
+    ANIMATION_FADE
+
     
     */
 });
@@ -79,41 +95,37 @@ btn2.addEventListener('click', function(){
     /*
     You can use with arguments:
     
-    args = {
-        animated:true,
-        animationStyle:2
-    };
-    statusbar.show(args);
+    statusbar.show({animationStyle: statusbar.ANIMATION_FADE });
     
     
     animationStyle can be:  
-    0 = NONE,
-    1 = FADE,
-    2 = SLIDE
+    ANIMATION_NONE
+    ANIMATION_SLIDE (Default)
+    ANIMATION_FADE
     
     */
 });
 
 btn3.addEventListener('click', function(){
-    statusbar.style = 0;
+    statusbar.style = statusbar.COLOR_BLACK;
     
     /*
 
      Style can be:
-     0 = BLACK
-     1 = WHITE
+     COLOR_BLACK
+     COLOR_WHITE
      
     */
 });
 
 btn4.addEventListener('click', function(){
-    statusbar.style = 1;
+    statusbar.style = statusbar.COLOR_WHITE;
     
     /*
 
      Style can be:
-     0 = BLACK
-     1 = WHITE
+     COLOR_BLACK
+     COLOR_WHITE
      
     */
 });

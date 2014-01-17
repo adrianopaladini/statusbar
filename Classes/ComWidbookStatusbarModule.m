@@ -11,6 +11,14 @@
 
 @implementation ComWidbookStatusbarModule
 
+MAKE_SYSTEM_PROP(ANIMATION_NONE,0);
+MAKE_SYSTEM_PROP(ANIMATION_FADE,1);
+MAKE_SYSTEM_PROP(ANIMATION_SLIDE,2);
+
+MAKE_SYSTEM_PROP(COLOR_BLACK,0);
+MAKE_SYSTEM_PROP(COLOR_WHITE,1);
+
+
 #pragma mark Internal
 
 // this is generated for your module, please do not change it
@@ -96,8 +104,7 @@
     ENSURE_SINGLE_ARG_OR_NIL(args,NSDictionary);
     ENSURE_UI_THREAD(hide,args);
     
-    BOOL animated = [TiUtils boolValue:@"animated" properties:args def:YES];
-    int style = (animated==NO) ? UIStatusBarAnimationNone : [TiUtils intValue:@"animationStyle" properties:args def:UIStatusBarAnimationSlide];
+    int style = [TiUtils intValue:@"animationStyle" properties:args def:UIStatusBarAnimationSlide];
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:style];
 }
 
@@ -107,8 +114,7 @@
     ENSURE_SINGLE_ARG_OR_NIL(args,NSDictionary);
     ENSURE_UI_THREAD(show,args);
 
-    BOOL animated = [TiUtils boolValue:@"animated" properties:args def:YES];
-    int style = (animated==NO) ? UIStatusBarAnimationNone : [TiUtils intValue:@"animationStyle" properties:args def:UIStatusBarAnimationSlide];
+    int style = [TiUtils intValue:@"animationStyle" properties:args def:UIStatusBarAnimationSlide];
     [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:style];
 }
 

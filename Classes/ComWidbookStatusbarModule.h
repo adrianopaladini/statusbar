@@ -10,4 +10,9 @@
 {
 }
 
+//API
+-(void)hide:(id)args;
+-(void)show:(id)args;
+-(void)setStyle:(NSNumber *)style;
+
 @end
