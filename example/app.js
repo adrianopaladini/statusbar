@@ -58,7 +58,7 @@ win.add(btn4);
 
 
 // Create module object
-var statusbar = require('com.widbook.statusbar');
+var statusbar = require('com.apaladini.statusbar');
 
 
 

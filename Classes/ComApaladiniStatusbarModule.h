@@ -6,7 +6,7 @@
  */
 #import "TiModule.h"
 
-@interface ComWidbookStatusbarModule : TiModule 
+@interface ComApaladiniStatusbarModule : TiModule
 {
 }
 

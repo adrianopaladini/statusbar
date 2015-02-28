@@ -1,11 +1,11 @@
 /**
  * This is a generated file. Do not edit or your changes will be lost
  */
-#import "ComWidbookStatusbarModuleAssets.h"
+#import "ComApaladiniStatusbarModuleAssets.h"
 
 extern NSData* filterDataInRange(NSData* thedata, NSRange range);
 
-@implementation ComWidbookStatusbarModuleAssets
+@implementation ComApaladiniStatusbarModuleAssets
 
 - (NSData*) moduleAsset
 {

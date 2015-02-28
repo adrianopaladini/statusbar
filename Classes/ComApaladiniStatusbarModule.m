@@ -4,12 +4,12 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
-#import "ComWidbookStatusbarModule.h"
+#import "ComApaladiniStatusbarModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
 
-@implementation ComWidbookStatusbarModule
+@implementation ComApaladiniStatusbarModule
 
 MAKE_SYSTEM_PROP(NONE,0);
 MAKE_SYSTEM_PROP(FADE,1);
@@ -30,7 +30,7 @@ MAKE_SYSTEM_PROP(WHITE,1);
 // this is generated for your module, please do not change it
 -(NSString*)moduleId
 {
-	return @"com.widbook.statusbar";
+	return @"com.apaladini.statusbar";
 }
 
 #pragma mark Lifecycle

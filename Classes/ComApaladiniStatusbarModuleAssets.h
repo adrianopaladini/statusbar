@@ -2,7 +2,7 @@
  * This is a generated file. Do not edit or your changes will be lost
  */
 
-@interface ComWidbookStatusbarModuleAssets : NSObject
+@interface ComApaladiniStatusbarModuleAssets : NSObject
 {
 }
 - (NSData*) moduleAsset;

@@ -22,11 +22,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* ComWidbookStatusbarModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComWidbookStatusbarModule.h */; };
-		24DD6CFA1134B3F500162E58 /* ComWidbookStatusbarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComWidbookStatusbarModule.m */; };
-		24DE9E1111C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.m */; };
-		AA747D9F0F9514B9006C5449 /* ComWidbookStatusbar_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComWidbookStatusbar_Prefix.pch */; };
+		24DD6CF91134B3F500162E58 /* ComApaladiniStatusbarModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComApaladiniStatusbarModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComApaladiniStatusbarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComApaladiniStatusbarModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* ComApaladiniStatusbar_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComApaladiniStatusbar_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,14 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* ComWidbookStatusbarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComWidbookStatusbarModule.h"; path = "Classes/ComWidbookStatusbarModule.h"; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* ComWidbookStatusbarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComWidbookStatusbarModule.m"; path = "Classes/ComWidbookStatusbarModule.m"; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* ComApaladiniStatusbarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComApaladiniStatusbarModule.h"; path = "Classes/ComApaladiniStatusbarModule.h"; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComApaladiniStatusbarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComApaladiniStatusbarModule.m"; path = "Classes/ComApaladiniStatusbarModule.m"; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComWidbookStatusbarModuleAssets.h"; path = "Classes/ComWidbookStatusbarModuleAssets.h"; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComWidbookStatusbarModuleAssets.m"; path = "Classes/ComWidbookStatusbarModuleAssets.m"; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* ComWidbookStatusbar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComWidbookStatusbar_Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComApaladiniStatusbarModuleAssets.h"; path = "Classes/ComApaladiniStatusbarModuleAssets.h"; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComApaladiniStatusbarModuleAssets.m"; path = "Classes/ComApaladiniStatusbarModuleAssets.m"; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComApaladiniStatusbar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComApaladiniStatusbar_Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libComWidbookStatusbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libComWidbookStatusbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libComApaladiniStatusbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libComApaladiniStatusbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libComWidbookStatusbar.a */,
+				D2AAC07E0554694100DB518D /* libComApaladiniStatusbar.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,10 +93,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24DE9E0F11C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.h */,
-				24DE9E1011C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.m */,
-				24DD6CF71134B3F500162E58 /* ComWidbookStatusbarModule.h */,
-				24DD6CF81134B3F500162E58 /* ComWidbookStatusbarModule.m */,
+				24DE9E0F11C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComApaladiniStatusbarModule.h */,
+				24DD6CF81134B3F500162E58 /* ComApaladiniStatusbarModule.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* ComWidbookStatusbar_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* ComApaladiniStatusbar_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
@@ -117,9 +117,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* ComWidbookStatusbar_Prefix.pch in Headers */,
-				24DD6CF91134B3F500162E58 /* ComWidbookStatusbarModule.h in Headers */,
-				24DE9E1111C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* ComApaladiniStatusbar_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComApaladiniStatusbarModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +140,7 @@
 			);
 			name = "statusbar";
 			productName = "statusbar";
-			productReference = D2AAC07E0554694100DB518D /* libComWidbookStatusbar.a */;
+			productReference = D2AAC07E0554694100DB518D /* libComApaladiniStatusbar.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -190,8 +190,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* ComWidbookStatusbarModule.m in Sources */,
-				24DE9E1211C5FE74003F90F6 /* ComWidbookStatusbarModuleAssets.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* ComApaladiniStatusbarModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComApaladiniStatusbarModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,11 +212,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/ComWidbookStatusbar.dst";
+				DSTROOT = "/tmp/ComApaladiniStatusbar.dst";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComWidbookStatusbar_Prefix.pch";
+				GCC_PREFIX_HEADER = "ComApaladiniStatusbar_Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -235,7 +235,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComWidbookStatusbar";
+				PRODUCT_NAME = "ComApaladiniStatusbar";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -249,11 +249,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/ComWidbookStatusbar.dst";
+				DSTROOT = "/tmp/ComApaladiniStatusbar.dst";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComWidbookStatusbar_Prefix.pch";
+				GCC_PREFIX_HEADER = "ComApaladiniStatusbar_Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -270,7 +270,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComWidbookStatusbar";
+				PRODUCT_NAME = "ComApaladiniStatusbar";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -283,11 +283,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/ComWidbookStatusbar.dst";
+				DSTROOT = "/tmp/ComApaladiniStatusbar.dst";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComWidbookStatusbar_Prefix.pch";
+				GCC_PREFIX_HEADER = "ComApaladiniStatusbar_Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -305,7 +305,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComWidbookStatusbar";
+				PRODUCT_NAME = "ComApaladiniStatusbar";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -319,11 +319,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/ComWidbookStatusbar.dst";
+				DSTROOT = "/tmp/ComApaladiniStatusbar.dst";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComWidbookStatusbar_Prefix.pch";
+				GCC_PREFIX_HEADER = "ComApaladiniStatusbar_Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -339,7 +339,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComWidbookStatusbar";
+				PRODUCT_NAME = "ComApaladiniStatusbar";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";

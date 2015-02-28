@@ -2,17 +2,18 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.1
+version: 2.0
 apiversion: 2
 description: -
 author: Adriano Paladini
 license: -
-copyright: 2013 Widbook
+copyright: -
 
 
 # these should not be edited
 name: statusbar
-moduleid: com.widbook.statusbar
-guid: 32bb0cde-76e5-451f-8718-888aaeb346b9
+moduleid: com.apaladini.statusbar
+guid: 32bb0cde-76e5-451f-8718-888aaeb346a4
 platform: iphone
 minsdk: 3.1.3.GA
+architectures: armv7 arm64 i386 x86_64
